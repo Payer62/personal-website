@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 22px;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 26px;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #737173;
+}
+
+section{
+    height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.top-banner{
+    background-image: url("img/header-bg.png") !important;
+    background-repeat: no-repeat;
+    background-position: ;
+    background-size: cover;
+    
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width h3{
+    margin-top:135px;
+    margin-bottom: 10px;
+}
+
+.half-width h2{
+    margin-top:135px;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.half-width h1 span{
+    color: #E74D7B;
+    font-size: 32px;  
+    font-weight: 700;
+}
+
+.half-width p{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-right: 5px;
+    line-height: 20px;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #E74D7B;
+    background-image: linear-gradient(45deg, #E7518C, #E74D7B);
+    color: #fff;
+    padding: 7px 18px;
+    border-radius: 5px;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.biograpy-banner{
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;  
+}
+
+.work-banner{
+    height: 400px;
+    background-image: url("img/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.work-banner h2{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 32px;
+}
+
+.three-width{
+    width: 25%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+
+.first-pad{
+    margin-left:7%;
+}
+
+.three-width img{
+    width: 100%;
+}
+
+.clint-banner{
+    height: 400px;
+    background-image: url("img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.clint{
+    text-align: center;
+}
+
+.clint h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+.clint h3{
+    font-size: 20px;
+    margin-top: 35px;
+    font-weight: 600;
+}
+
+.clint h5{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: #737173;
+}
+
+.clint p{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.clint-box{
+    text-align: center;
+    margin-top: 40px;
+    width: 500px;
+    margin-left: 31%;
+    padding: 20px 0;
+    background-color: #EF4D73;
+    border-radius: 5px;
+}
+
+.clint-box h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.clint-box h2{
+    color: #fff;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 35px;
+}
